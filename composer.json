@@ -1,0 +1,29 @@
+{
+  "name": "oktapodia/gravatar-xmlrpc",
+  "description": "Wrapper class for the Gravatar XMLRPC api",
+  "keywords": ["xmlrpc", "gravatar"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "BRAMILLE Sébastien-FIG",
+      "email": "sebastien.bramille@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0",
+    "pear/xml_rpc2": "dev-trunk"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "gravatar-xmlrpc": {
+      "lib\\": ""
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
